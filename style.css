@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 40px;
+    background-color:white;
+    height: 277px;
+    font-size: 65px;
+    color:rgb(240, 152, 200);
+    text-align: center;
+    background-image: url("image-removebg-preview.png");
+    background-position-y: center;
+    text-shadow: 25px 25px 25px white;
+}
+
+header h1{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: -0.5%;
+}
+.container{
+    background-color: rgba(253, 167, 203, 0.952);
+}
+
+.block1{
+    font-size:25px;
+    text-align:left;
+}
+
+.block2{
+    text-align:center;
+    display: flex; 
+    justify-content: center;
+}
+
+.block3{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(253, 167, 203, 0.952);
+}
+footer{
+    background-color: rgb(248, 208, 215);
+    color:rgb(148, 89, 98);
+    text-align: center;
+    padding:0%
+}
+.social img{
+    width: 100px;
+    padding-left: 10px;
+}
+
+.social {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
